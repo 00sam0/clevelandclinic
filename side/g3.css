@@ -1,0 +1,203 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(third.png); 
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+    height: 30px;
+}
+
+/* header .logo h1 {
+    font-size: 1em;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: left; 
+}
+
+#logo_img{
+    display: flex;
+    height: 20px;
+    width: 20px;
+} */
+
+/* General navbar styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    /* padding: 10px; */
+    /* background-color: black;  */
+}
+
+/* Logo container for alignment */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Style the logo */
+.logo {
+    height: 40px; /* Adjust to fit your navbar */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+/* Style the website name */
+.site-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black; /* Example text color */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.page-section {
+    width: 100%;
+    max-width: 970px;
+    padding: 10px;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    /* border-radius: 5px; */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+    /* word-break: normal; */
+    /* word-wrap: break-word; */
+    /* overflow-wrap: break-word; */
+    /* font-size: 30px;  */
+    /* line-height: 50px; */
+    font-size: 1.5rem;
+    /* line-height: 2.75rem;  */
+    /* font-weight: 900; */
+    /* margin-top: 0; */
+}
+
+h1{
+    text-align: left;
+    display: flex;
+    width: 700px;
+    /* font-size: .5rem; */
+    /* margin-right: 2px; */
+}
+
+.page-section p{
+    font-size: 2.3rem;
+    font-family: source sans pro, roboto, sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 1em;
+}
+
+input:focus {
+    outline: none;
+    border-color: aqua;
+}
+
+button {
+    padding: 15px;
+    background-color: aqua; 
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: black;
+    color: aqua;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #141414;
+    color: white;
+}
+
+#phone{
+    text-decoration: none;
+    color: blue;
+}
